@@ -1,0 +1,33 @@
+.normal {
+    background-color: white;
+}
+
+.correct {
+    animation-duration: 0.25s;
+    animation-name: correct-bg;
+}
+
+.wrong {
+    animation-duration: 0.25s;
+    animation-name: wrong-bg;
+}
+
+@keyframes correct-bg {
+    from {
+        background-color: #00ff00;
+    }
+
+    to {
+        background-color: #ffffff;
+    }
+}
+
+@keyframes wrong-bg {
+    from {
+        background-color: #ff0000;
+    }
+
+    to {
+        background-color: #ffffff;
+    }
+}
